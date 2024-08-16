@@ -1,3 +1,7 @@
+:root {
+  --background-color: rgb(114, 95, 133);
+}
+
 .App {
   text-align: center;
 }
@@ -39,7 +43,6 @@
 
 .Cat-card {
   margin-top: 2%;  
-
 }
 
 .Cat-card-actions {
@@ -47,5 +50,5 @@
 }
 
 body {
-  background-color: rgb(114, 95, 133);
+  background-color: var(--background-color);
 }

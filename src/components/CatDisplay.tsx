@@ -13,9 +13,9 @@ import catPicture from "../interfaces/api-interfaces";
 
 /**
  * CatDisplay is a component that will take an array of cat pictures, and
- * create Cards displaying their metadata a display of the picture, and
+ * create Cards displaying their metadata, the picture itself, and
  * a delete button to delete the card.
- * @param catPictures - is an arry of catPictures.
+ * @param catPictures - is an array of catPictures.
  * @returns a CatDisplay component.
  */
 const CatDisplay = ({ catPictures }: { catPictures: catPicture[] }) => {

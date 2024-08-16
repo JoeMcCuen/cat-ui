@@ -32,7 +32,7 @@ const App = () => {
   }, []);
 
   // If there is an error fetching the API data show an error alert.
-  // To cause this to happen, go to the network tab, click on the
+  // To cause this to happen, go to the network tab in the browser, click on the
   // the request to the cat API, right-click, and click "Block request URL".
   if (errorLoading) {
     return (
