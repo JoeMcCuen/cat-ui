@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Cat-card {
+  margin-top: 2%;  
+
+}
+
+.Cat-card-actions {
+  justify-content: right;
+}
+
+body {
+  background-color: rgb(114, 95, 133);
+}
